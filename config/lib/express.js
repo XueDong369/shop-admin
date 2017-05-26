@@ -337,7 +337,7 @@ module.exports.init = function (db) {
     // Initialize Helmet security headers
     this.initHelmetHeaders(app);
 
-    // Initialize modules static client routes
+    // Initialize modules static server routes
     this.initModulesClientRoutes(app);
 
     // Initialize modules server authorization policies
